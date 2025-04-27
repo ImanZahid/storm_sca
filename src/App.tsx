@@ -1,13 +1,14 @@
-import "./App.css";
+import { HashRouter } from "react-router-dom";
+import { AppRoutes } from "@/routes/AppRoutes";
+import Layout from "@/components/ui/layout";
 
 function App() {
   return (
-    <div className="space-y-6">
-      <h1 className="text-3xl font-bold">Welcome to Your App</h1>
-      <p className="text-muted-foreground">
-        This is the main content area of your application.
-      </p>
-    </div>
+    <HashRouter>
+      <Layout>
+        <AppRoutes />
+      </Layout>
+    </HashRouter>
   );
 }
 

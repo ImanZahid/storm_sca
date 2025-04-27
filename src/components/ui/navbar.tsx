@@ -9,7 +9,7 @@ const Navbar = () => {
       <div className="mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo/Brand */}
-          <div className="flex-shrink-0 font-bold text-lg">Your App Name</div>
+          <div className="flex-shrink-0 font-bold text-lg">App Name</div>
 
           {/* Desktop Menu */}
           <div className="hidden md:block">
